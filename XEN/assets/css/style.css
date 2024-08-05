@@ -3352,6 +3352,14 @@ body,
 	letter-spacing: 0px;
 	font-family: 'Oswald', sans-serif;
 }
+.medium-title-oswald {
+	text-transform: uppercase;
+	font-size: 25px;
+	line-height: 1.4;
+	font-weight: 600;
+	letter-spacing: 0px;
+	font-family: 'Oswald', sans-serif;
+}
 
 .xsmall-title-oswald {
 	text-transform: uppercase;
@@ -6523,6 +6531,9 @@ width: 100%;
 }
 .c-mb-10{
 	margin-top: -30px;
+}
+.c-mb-20{
+	margin-top: -150px;
 }
 
 
