@@ -2514,7 +2514,7 @@ a:hover .nav-btn:before {
 	-webkit-transform: scale(1);
 	    -ms-transform: scale(1);
 	        transform: scale(1);
-	opacity: 1;
+	opacity: 0.7;
 }
 
 /* 5.6. Navigation backgrounds overlay */
@@ -6526,6 +6526,13 @@ width: 100%;
 	display: flex;
 	flex-direction: column;
 }
+.pad-20{
+	padding: 15px;
+}
+.pad-10{
+	padding: 8px;
+}
+
 .m-t{
 	font-size: 30px;
 }
@@ -6535,7 +6542,10 @@ width: 100%;
 .c-mb-20{
 	margin-top: -150px;
 }
-
+.d-f{
+	display: flex;
+	flex-direction: row;
+}
 
 .d-f-c-c{
 	display: flex;
@@ -6546,6 +6556,10 @@ width: 100%;
 }
 .f-r{
 	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.ml-10{
+	margin-left: 10px;
 }
 .p-style{
 	font-size: 15px;
@@ -6593,7 +6607,7 @@ width: 100%;
 	.t-l{
 		text-align: center;
 	}
-	.fr{
+	.f-r{
 		flex-direction: column;
 	}
 	.small-title-oswald{
@@ -6602,6 +6616,10 @@ width: 100%;
 	.p-style{
 		font-size: 18px;
 	}
+	.d-f{
+		flex-direction: column;
+	}
+	
 }
 @media only screen and (max-width: 900px) {
 		
@@ -6646,6 +6664,9 @@ width: 100%;
 	}
 	.p-style{
 		font-size: 18px;
+	}
+	.d-f{
+		flex-direction: column;
 	}
 	
 		
